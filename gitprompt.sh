@@ -80,7 +80,7 @@ function git_prompt_load_colors() {
 
 function git_prompt_load_theme() {
   get_theme
-  local DEFAULT_THEME_FILE="${__GIT_PROMPT_DIR}/themes/Solarized_Custom.bgptheme"
+  local DEFAULT_THEME_FILE="${__GIT_PROMPT_DIR}/themes/Default.bgptheme"
   source "${DEFAULT_THEME_FILE}"
   source "${__GIT_PROMPT_THEME_FILE}"
 }
